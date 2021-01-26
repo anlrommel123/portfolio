@@ -19,9 +19,9 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#">RSBELBESTRE</a>
+                <a class="navbar-brand js-scroll-trigger" href="#header-home">RSBELBESTRE</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
             </div>
           </nav>
 
-          <header class="header-home">
+          <header class="header-home" id="header-home">
             <div class="container">
                 <div class="header-subheading">Welcome to my website!</div>
                 <div class="header-masterheading text-uppercase">It's nice to meet you</div>
@@ -68,8 +68,8 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="profile-details">
-                            <p class="text-secondary">
+                        <div class="profile-details mt-5">
+                            <p class="text-secondary text-justify">
                                 Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                                 dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                                 dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
@@ -83,19 +83,106 @@
 
           <section class="page-section" id="my-works">
             <div class="container">
-                <div class="text-center text-uppercase">
+                <div class="text-center text-uppercase mb-5">
                     <h1>My Works</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="work-item">
+                            <a href="" class="work-link">
+                                <div class="work-hover">
+                                    <div class="work-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./assets/img/portfolio/01-thumbnail.jpg" alt="" class="img-fluid">
+                            </a>
+                            <div class="work-caption">
+                                <div class="work-caption-heading">Threads</div>
+                                <div class="work-caption-subheading text-secondary">
+                                    Illustration
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="work-item">
+                            <a href="" class="work-link">
+                                <div class="work-hover">
+                                    <div class="work-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./assets/img/portfolio/02-thumbnail.jpg" alt="" class="img-fluid">
+                            </a>
+                            <div class="work-caption">
+                                <div class="work-caption-heading">Threads</div>
+                                <div class="work-caption-subheading text-secondary">
+                                    Illustration
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="work-item">
+                            <a href="" class="work-link">
+                                <div class="work-hover">
+                                    <div class="work-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="./assets/img/portfolio/03-thumbnail.jpg" alt="" class="img-fluid">
+                            </a>
+                            <div class="work-caption">
+                                <div class="work-caption-heading">Threads</div>
+                                <div class="work-caption-subheading text-secondary">
+                                    Illustration
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
           </section>
 
-          <section class="page-section" id="contact-me">
+          <section class="page-section bg-dark" id="contact-me">
               <div class="container">
-                  <div class="text-center text-uppercase">
+                  <div class="text-center text-uppercase mb-5 text-white">
                       <h1>Contact Me</h1>
                   </div>
+                <form action="mailto:rommelbelbestre@gmail.com?subject=Yay!" method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" name="Name" class="form-control" placeholder="Your Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="ContactNo" class="form-control" placeholder="Your Contact No.">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <textarea name="Message" class="form-control" placeholder="Your Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg text-uppercase">Send Message</button>
+                    </div>
+                </form>
               </div>
           </section>
+
+          <footer class="footer py-4">
+            <div class="container">
+                <div class="text-center">
+                    Copyright © Rommel S. Belbestre
+                </div>
+            </div>
+          </footer>
 
 
         <!-- js -->
