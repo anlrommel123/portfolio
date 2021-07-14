@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "rommelbelbestre",
     "public": "public",
     "ignore": [
       "firebase.json",
