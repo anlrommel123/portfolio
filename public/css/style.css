@@ -6,6 +6,7 @@
   }
 
   header.header-home .header-masterheading {
+    color: #ebebeb;
     font-size: 3.25rem;
     font-weight: 700;
     line-height: 3.25rem;
@@ -52,7 +53,8 @@
   }
 
   header.header-home .header-masterheading {
-    font-size: 4.5rem;
+    color: #ebebeb;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
@@ -73,7 +75,7 @@ header.header-home {
   padding-bottom:20rem;
   color: #fff;
   text-align: center;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/port-9.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -88,6 +90,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
+}
+
+.btn-md {
+  color: #ebebeb;
+  padding: 0.25rem 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
 }
 
 .btn-lg {
@@ -288,9 +297,9 @@ section#contact-me .form-group .form-control:focus {
   bottom: 0;
   left: 40px;
   width: 2px;
-  margin-left: -1.5px;
+  margin-left: -10px;
   content: "";
-  /* background-color: #e9ecef; Vertical Line */  
+  background-color: #ebebeb;
 }
 .timeline > li {
   position: relative;
@@ -332,9 +341,9 @@ section#contact-me .form-group .form-control:focus {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #ebebeb;
   border-radius: 100%;
-  /* background-color: #fed136; */
+  background-color: #ffffff;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -435,7 +444,7 @@ section#contact-me .form-group .form-control:focus {
   .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
-    margin-left: -85px;
+    margin-left: -95px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
@@ -443,4 +452,8 @@ section#contact-me .form-group .form-control:focus {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+#my-works {
+  background-color: #ebebeb;
 }
