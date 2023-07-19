@@ -283,7 +283,7 @@ section#contact-me .form-group .form-control:focus {
 }
 
 .text-myworks {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .timeline {
@@ -299,7 +299,7 @@ section#contact-me .form-group .form-control:focus {
   width: 2px;
   margin-left: -10px;
   content: "";
-  background-color: #ebebeb;
+  background-color: #d7d9db;
 }
 .timeline > li {
   position: relative;
@@ -341,7 +341,7 @@ section#contact-me .form-group .form-control:focus {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #ebebeb;
+  border: 7px solid #d7d9db;
   border-radius: 100%;
   background-color: #ffffff;
 }
@@ -454,6 +454,6 @@ section#contact-me .form-group .form-control:focus {
   }
 }
 
-#my-works {
+#services, #experience {
   background-color: #ebebeb;
 }
