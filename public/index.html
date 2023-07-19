@@ -26,6 +26,16 @@
                     height: 200px !important;
                 }
             }
+
+            .card-profile {
+                border: none !important;
+            }
+
+            .card-body-profile {
+                background-color: white !important;
+                border-radius: 30px !important;
+                box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.1) !important;
+            }
         </style>
 
     </head>
@@ -72,23 +82,31 @@
                 <div class="text-center">
                     <h2 class="text-uppercase">PROFILE</h2>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="profile">
-                            <img class="rounded-img" src="img/portfolio/profile-4.jpg" alt="Rommel Belbestre">
-                            <h4 class="mt-3 mb-0">Rommel Belbestre</h4>
-                        </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <div class="card card-profile">
+                            <div class="card-body card-body-profile">
+                                <div class="profile">
+                                    <img class="rounded-img" src="img/portfolio/profile-4.jpg" alt="Rommel Belbestre">
+                                    <h4 class="mt-3 mb-0">Rommel Belbestre, <span id="displayAge"></span></h4>
+                                </div>
+                                <div class="profile-details mt-4">
+                                    <p class="text-secondary text-justify">
+                                        Hi! My name is Rommel, others call me "mel". 
+                                        I have been working in the IT Industry as a Developer for 5 years now and counting, 
+                                        mainly focused in web applications such as PHP Laravel, VueJS, APIs and etc.  
+                                        Also, I love to explore different frameworks in web especially in JavaScript, same to "Dora the Explorer". 
+                                        Just kidding &#128516;. Tito jokes unlocked right there hehe. 
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
                     </div>
-                    <div class="col-lg-8">
-                        <div class="profile-details mt-5">
-                            <p class="text-secondary text-justify">
-                                Hi! My name is Rommel Belbestre, others call me "mel". 
-                                I have been working in the IT Industry as a Programmer for 3years and counting, 
-                                mainly focused in web applications such as PHP Laravel, VueJS, APIs and etc.  
-                                Also, I love to explore different frameworks in web especially in JavaScript, same to "Dora the Explorer". 
-                                Just kidding &#128516;. Tito jokes unlocked right there hahaha. 
-                                By the way, I'm also a gamer and I love playing MOBA Games like DOTA2 and ML.
-                            </p>
+                    <div class="col-lg-6">
+                        <div class="card card-profile">
+                            <div class="card-body card-body-profile">
+                                <h4 class="mt-3 mb-0 text-center">Skills</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -404,5 +422,19 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="js/main.js"></script> 
+        <script type="text/javaScript">
+
+            //Disply my current age
+            function displayAge() {
+                document.getElementById('displayAge').innerHTML = 25
+
+                // let myBirthDate = '1998-02-02'
+                // let currentDate = '2023-07-19'
+
+
+            }
+
+            displayAge()
+        </script>
     </body>
 </html>
