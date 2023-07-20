@@ -20,6 +20,33 @@
         <link rel="stylesheet" href="css/style.css">
 
         <style type="text/css">
+
+            /* Extra small devices */
+            @media screen and (max-width: 575px) {
+                .header-masterheading {
+                    font-size: 40px !important;
+                }
+
+                .timeline:before {
+                    left: 50px !important;
+                }
+            }
+
+            /* Up to Large devices */
+            @media screen and (max-width: 991px) {
+                #work-vfi {
+                    width: 50px !important;
+                }
+            }
+
+            /* Up to Extra large devices */
+            @media screen and (max-width: 1199px) {
+                #gmap_canvas {
+                    width: 100% !important;
+                }
+            }
+
+            /* Large devices and up */
             @media screen and (min-width: 992px) {
                 .img-fluid {
                     width: 350px !important;
@@ -35,6 +62,22 @@
                 background-color: white !important;
                 border-radius: 30px !important;
                 box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.1) !important;
+            }
+
+            .blue-dot {
+                height: 20px;
+                width: 20px;
+                background-color: #007bff;
+                border-radius: 50%;
+                display: inline-block;
+            }
+
+            .gray-dot {
+                height: 20px;
+                width: 20px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
             }
         </style>
 
@@ -72,7 +115,7 @@
 
           <header class="header-home" id="header-home">
             <div class="container">
-                <div class="header-masterheading">Hi, I'm Rommel. <br> I develop websites/web applications.</div>
+                <div class="header-masterheading">Hi, I'm Rommel. I design & build <br> websites/web applications.</div>
                 <a href="#about-me" class="btn btn-primary btn-lg js-scroll-trigger text-uppercase">Tell me more</a>
             </div>
           </header>
@@ -92,11 +135,9 @@
                                 </div>
                                 <div class="profile-details mt-4">
                                     <p class="text-secondary text-justify">
-                                        Hi! My name is Rommel, others call me "mel". 
-                                        I have been working in the IT Industry as a Developer for 5 years now and counting, 
-                                        mainly focused in web applications such as PHP Laravel, VueJS, APIs and etc.  
-                                        Also, I love to explore different frameworks in web especially in JavaScript, same to "Dora the Explorer". 
-                                        Just kidding &#128516;. Tito jokes unlocked right there hehe. 
+                                        Hi! My name is Rommel, others call me “Mel”. I'm currently living in Cebu City, Philippines. 
+                                        I have been working in the IT Industry as a Full-stack Web Developer for 5 years now and counting, 
+                                        mainly focused in websites/web applications such as PHP Laravel/CodeIgniter, JavaScript, VueJS, MySQL/MSSQL, APIs, Bootstrap, HTML5, CSS3 and etc.
                                     </p>
                                 </div>
                             </div>
@@ -105,7 +146,153 @@
                     <div class="col-lg-6">
                         <div class="card card-profile">
                             <div class="card-body card-body-profile">
-                                <h4 class="mt-3 mb-0 text-center">Skills</h4>
+                                <h4 class="mt-3 mb-0 mb-5 text-center">Skills</h4>
+                                <div class="row text-muted mb-5">
+                                    <div class="col-lg-4">
+                                        HTML5
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="html">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        CSS3
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="css">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        Bootstrap
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="css">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        PHP Laravel
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        PHP Wordpress
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        APIs
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        JavaScript
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="gray-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        VueJS
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="gray-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        jQuery
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="gray-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        MySQL/MSSQL
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="gray-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        Adobe Illustrator
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="gray-dot"></span>
+                                            <span class="gray-dot"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        Adobe Photoshop
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div id="php">
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="blue-dot"></span>
+                                            <span class="gray-dot"></span>
+                                            <span class="gray-dot"></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -120,24 +307,24 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-lg-4 text-center">
-                        <img src="icon/code-svgrepo-com.svg" width="130" alt="code">
+                        <img src="icon/services-code.svg" width="130" alt="code">
                         <h5>Front-end</h5>
                         <p class="text-muted">
                             HTML5, CSS3, Bootstrap, Semantic UI, <br>JavaScript, VueJS, jQuery, APIs
                         </p>
                     </div>
                     <div class="col-lg-4 text-center">
-                        <img src="icon/brackets-curly-svgrepo-com.svg" width="130" alt="code">
+                        <img src="icon/services-curly.svg" width="130" alt="code">
                         <h5>Back-end</h5>
                         <p class="text-muted">
-                            PHP, Wordpress, MVC Frameworks Laravel/CodeIgniter, MySQL/MSSQL
+                            PHP, Wordpress, MVC Frameworks <br> Laravel/CodeIgniter, MySQL/MSSQL
                         </p>
                     </div>
                     <div class="col-lg-4 text-center">
-                        <img src="icon/edit-svgrepo-com.svg" width="130" alt="code">
+                        <img src="icon/services-edit.svg" width="130" alt="code">
                         <h5>Graphics Design</h5>
                         <p class="text-muted">
-                            Adobe Illustrator, Adobe Photoshop
+                            Adobe Illustrator, <br> Adobe Photoshop
                         </p>
                     </div>
                 </div>
@@ -217,7 +404,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image d-flex">
-                            <img class="m-auto" src="img/logos/Virginia-Logo.png" alt="Virginia" width="130" />
+                            <img id="work-vfi" class="m-auto" src="img/logos/Virginia-Logo.png" alt="Virginia" width="130" />
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -235,7 +422,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image d-flex" style="background-color: #00cc00;">
+                        <div class="timeline-image d-flex" style="background-color: #007bff;">
                             <h4 class="text-light m-auto">Be Part <br> Of My <br> Work!</h4>
                         </div>
                     </li>
@@ -249,31 +436,31 @@
                       <h1 class="text-uppercase">Contact Me</h1>
                   </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 mb-4">
                         <form action="mailto:rommelbelbestre@gmail.com?subject=Email from your Website Portfolio" method="post" enctype="text/plain">
                             <div class="form-group">
-                                <input type="text" name="Name" class="form-control" placeholder="Your Full Name" required>
+                                <input type="text" name="Name" class="form-control" placeholder="Your Full Name" autocomplete="off" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="Email" class="form-control" placeholder="Your Email Address" required>
+                                <input type="text" name="Email" class="form-control" placeholder="Your Email Address" autocomplete="off" required>
                             </div>
                             <div class="form-group">
-                                <textarea name="Message" class="form-control" placeholder="Your Message" required></textarea>
+                                <textarea name="Message" class="form-control" placeholder="Your Message" autocomplete="off" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-md">Send an Email</button>
+                            <button type="submit" class="btn btn-primary btn-md mb-2">Send an Email</button>
                         </form> 
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <h5 class="text-white mb-4">You can also reach me here:</h5>
-                        <a class="btn btn-light btn-social mx-2" href="https://www.facebook.com/anlrommel123" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/rommel-belbestre-124016182/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+                        <a class="btn btn-light btn-social mx-2" href="https://www.facebook.com/anlrommel123" target="_blank"><i class="fab fa-facebook-f" style="color: #007bff;"></i></a>
+                        <a class="btn btn-primary btn-social mx-2" href="https://www.linkedin.com/in/rommel-belbestre-124016182/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
                         <a class="btn btn-light btn-social mx-2" href="mailto:rommelbelbestre@gmail.com?subject=Contact from Website Portfolio" target="_blank"><i class="fa fa-envelope"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="https://github.com/anlrommel123" target="_blank"><i class="fab fa-github"></i></a>
-                        <h6 class="text-white mt-3">or <br> send me a text via SMS</h6>
-                        <p class="text-white mt-3">(+63) 928 934 2237</p>
+                        <h6 class="text-white mt-3">or <br> send a message in Viber</h6>
+                        <p class="text-white mt-3"><i class="fab fa-viber" style="font-size: 20px; color: mediumpurple;"></i> &nbsp;+63 928 934 2237</p>
                     </div>
-                    <div class="col-md-4 text-center"> 
-                        <iframe width="400" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=cebu city&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div class="col-lg-4 text-center"> 
+                        <iframe width="390" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=cebu city&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                     </div>
                 </div>
