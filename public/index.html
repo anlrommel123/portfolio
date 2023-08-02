@@ -609,16 +609,15 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="js/main.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
         <script type="text/javaScript">
 
             //Disply my current age
             function displayAge() {
-                document.getElementById('displayAge').innerHTML = 25
+                let myBirthDate = '1998-02-02'
+                let result = moment().diff(moment(myBirthDate, 'YYYY-MM-DD'), 'years')
 
-                // let myBirthDate = '1998-02-02'
-                // let currentDate = '2023-07-19'
-
-
+                document.getElementById('displayAge').innerHTML = result
             }
 
             displayAge()
