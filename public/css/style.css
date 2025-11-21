@@ -71,11 +71,10 @@
 }
 
 header.header-home {
-  padding-top: 20rem;
-  padding-bottom:20rem;
+  height: 100vh;
   color: #fff;
   text-align: center;
-  background-image: url('../img/port-9.jpg');
+  background-image: url('../img/hero.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
